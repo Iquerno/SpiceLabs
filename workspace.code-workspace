@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.fontFamily": "'Hack Regular', monospace",
+		"editor.fontLigatures": null,
+		"editor.fontSize": 16,
+		"workbench.settings.editor": "json"
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Launch Program",
+				"program": "${workspaceFolder}/build/main.js",
+				"request": "launch",
+				"skipFiles": [
+					"<node_internals>/**"
+				],
+				"type": "pwa-node"
+			},
+		]
+	}
+}
